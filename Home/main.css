@@ -1,0 +1,70 @@
+:root {
+    --nord0: rgb(46,52,64);
+    --nord1: rgb(59,66,82);
+    --nord2: rgb(67,76,94);
+    --nord3: rgb(76,86,106);
+    --nord4: rgb(216,222,233);
+    --nord5: rgb(229,233,240);
+    --nord6: rgb(236,239,244);
+    --nord7: rgb(143,188,187);
+    --nord8: rgb(136,192,208);
+    --nord9: rgb(129,161,193);
+    --nord10: rgb(94,129,172);
+    --nord11: rgb(191,97,106);
+    --nord12: rgb(208,135,112);
+    --nord13: rgb(235,203,139);
+    --nord14: rgb(163,190,140);
+    --nord15: rgb(180,142,173);
+}
+
+/* text elements */
+
+body{
+    background-color: #2c2c2c;
+}
+
+h1 {
+    font-family: 'Courier New';
+    color: var(--nord8);
+    text-align: center;
+    font-size: 100px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+h2 {
+    font-family: 'Courier New';
+    color: var(--nord8);
+    padding-top: 0px;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 25px;
+    word-spacing: calc(100%);
+}
+
+/* horizontal navbar */
+
+ .hoznav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #252525;
+}
+
+.learn-btn {
+    float: right;
+    text-align: center;
+    background-color: #0099ff;
+    font-family: 'Courier New';
+    color : rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-right: 9px;
+    margin-bottom: 10px;
+    padding: 9px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.learn-btn:hover {
+    background-color: #0970c4;
+}

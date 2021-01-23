@@ -43,50 +43,28 @@ h2 {
 
 /* horizontal navbar */
 
-.hoznav ul {
+ .hoznav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: var(--nord3);
+    background-color: #252525;
 }
 
-.hoznav li {
-    float: left;
-}
-
-.hoznav li a {
-    display: block;
-    color: var(--nord0);
-    font-family: 'Courier New';
+.learn-btn {
+    float: right;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.hoznav li a:hover {
-    background-color: var(--nord1);
-}
-
-/* vertical navbar */
-
-.vertnav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: var(--nord0);
-}
-  
-.vertnav li a {
-    display: block;
-    color: var(--nord0);
+    background-color: #0099ff;
     font-family: 'Courier New';
-    padding: 8px 16px;
+    color : rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-right: 9px;
+    margin-bottom: 10px;
+    padding: 9px;
+    border-radius: 6px;
     text-decoration: none;
 }
-  
-.vertnav li a:hover {
-    background-color: #555;
-    color: white;
+
+.learn-btn:hover {
+    background-color: #0970c4;
 }

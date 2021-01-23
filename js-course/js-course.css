@@ -52,14 +52,14 @@ body {
 .card-img1 {
   display: block;
   margin-top: 15px;
-  margin-left: 134px;
+  margin-left: 125px;
   object-fit: cover;
 }
 
 .card-img2 {
   display: block;
   margin-top: 15px;
-  margin-left: 134px;
+  margin-left: 125px;
   object-fit: cover;
 }
 
@@ -93,12 +93,13 @@ body {
   border: none;
   border-radius: 0.4rem;
   transition: 0.2s;
+  text-decoration: none;
   cursor: pointer;
   letter-spacing: 0.1rem;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .card-btn span {
@@ -127,11 +128,11 @@ a {
   }
 
   .card-img1 {
-    margin-left: 116px;
+    margin-left: 100px;
   }
 
   .card-img2 {
-    margin-left: 116px;
+    margin-left: 100px;
     margin-top: 16px;
   }
 

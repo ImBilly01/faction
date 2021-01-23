@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Responsive Animated Sidebar Menu</title>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+        <link rel="stylesheet" href="./html-beginners.css">
+        <script>
+        function openSlideMenu(){
+            document.getElementById('menu').style.width = '250px';
+            document.getElementById('content').style.marginLeft = '250px';
+        }
+        function closeSlideMenu(){
+            document.getElementById('menu').style.width = '0';
+            document.getElementById('content').style.marginLeft = '0';
+        }
+        </script>
+    </head>
+    <body>
+
+    <div id="content">
+
+        <span class="slide">
+        <a href="#" onclick="openSlideMenu()">
+            <i class="fas fa-bars"></i>
+        </a>
+        </span>
+
+        <div id="menu" class="nav">
+        <a href="#" class="close" onclick="closeSlideMenu()">
+            <i class="fas fa-times"></i>
+        </a>
+        <a href="#">What is HTML?</a>
+        <a href="#">How to make files</a>
+        <a href="#">Documents</a>
+        <a href="#">Headings</a>
+        <a href="#">Paragraphs</a>
+        <a href="#">Horizontal Rules</a>
+        <a href="#">Line Breaks</a>
+        <a href="#">HTML Links</a>
+        <a href="#">HTML Images</a>
+        </div>
+
+        <h1>HTML For Beginners</h1>
+
+    </div>
+
+
+    </body>
+</html>

@@ -93,12 +93,13 @@ body {
   border: none;
   border-radius: 0.4rem;
   transition: 0.2s;
+  text-decoration: none;
   cursor: pointer;
   letter-spacing: 0.1rem;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .card-btn span {
